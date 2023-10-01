@@ -1,12 +1,5 @@
 package src
 
-// These intentionally don't match the assigned protocol numbers, because those do not specify HTTP.
-const (
-	ProxyProtoHttp = 1
-	ProxyProtoTcp  = 2
-	ProxyProtoUdp  = 3
-)
-
 type DockerContainer struct {
 	Id    string
 	Names []string
